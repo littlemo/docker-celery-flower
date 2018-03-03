@@ -20,7 +20,7 @@ RUN pip install --no-cache-dir flower redis
 
 # 创建路径并设置工作路径
 RUN mkdir -p /app/runtime
-WORKDIR /app
+WORKDIR /app/runtime
 
 # 开放对外端口
 EXPOSE 5555
