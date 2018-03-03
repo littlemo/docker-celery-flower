@@ -31,7 +31,7 @@
 ### docker-cli
 
 ```bash
-$ docker run -d -p 5555:5555 -v paht/to/runtime:/app/runtime --name flower littlemo/docker-celery-flower:latest
+$ docker run -d -p 5555:5555 -v path/to/runtime:/app/runtime --name flower littlemo/docker-celery-flower:latest
 
 $ open http://localhost:5555
 ```
@@ -49,7 +49,7 @@ services:
       - "5555:5555
     volumes:
       # 挂载持久化运行时路径
-      - ./paht/to/runtime:/app/runtime:rw
+      - ./path/to/runtime:/app/runtime:rw
     environment:
       CELERY_BROKER_URL: redis://localhost:6379/0
       FLOWER_PERSISTENT: True  # 如果需要持久化Flower数据则使能此配置
