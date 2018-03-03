@@ -3,7 +3,6 @@
 容器化的 celery-flower 服务，针对 [Flower](https://github.com/mher/flower) 开源项目进行镜像封装，用以提供指定 Celery 的监控&管理功能。
 
 ## 徽章
-
 ### GitHub
 
 [![GitHub followers](https://img.shields.io/github/followers/littlemo.svg?label=github%20follow)](https://github.com/littlemo) [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/littlemo/docker-celery-flower.svg)](https://github.com/littlemo/docker-celery-flower) [![GitHub stars](https://img.shields.io/github/stars/littlemo/docker-celery-flower.svg?label=github%20stars)](https://github.com/littlemo/docker-celery-flower)
@@ -27,7 +26,6 @@
 - redis
 
 ## 启动容器
-
 ### docker-cli
 
 ```bash
