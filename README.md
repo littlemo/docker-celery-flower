@@ -1,6 +1,6 @@
 # docker-celery-flower
 
-容器化的 celery-flower 服务，针对 [Flower](https://github.com/mher/flower) 开源项目进行镜像封装，用以提供指定 Celery 的监控&管理功能。
+容器化的 celery-flower 服务，针对 [Flower](https://github.com/mher/flower) 开源项目进行镜像封装，用以提供指定 [Celery](http://www.celeryproject.org/) 的监控&管理功能。
 
 ## 徽章
 ### GitHub
