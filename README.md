@@ -44,7 +44,7 @@ services:
     container_name: flower
     restart: unless-stopped
     ports:
-      - "5555:5555
+      - "5555:5555"
     volumes:
       # 挂载持久化运行时路径
       - ./path/to/runtime:/app/runtime:rw
